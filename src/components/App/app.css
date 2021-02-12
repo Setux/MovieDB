@@ -1,0 +1,53 @@
+body {
+    background-color: #F7F7F7 !important;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+.movie-app {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    min-height: 100vh;
+    max-height: max-content;
+    border: 1px solid transparent;
+}
+.paginator {
+    width: max-content;
+    margin: 0 auto 0 auto;
+}
+.ant-pagination-options {
+    display: none !important;
+}
+.filter-buttons {
+    width: max-content;
+    margin: 0 auto 0 auto;
+    border-bottom:  1px solid #D9D9D9;
+}
+.filter-button {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    height: 50px;
+    color:rgba(0,0,0, 0.65);
+    cursor: pointer;
+}
+.filter-button:active, .filter-button:focus {
+    outline: none;
+}
+.selected {
+    border-bottom: 3px solid #1890FF;
+    color: #1890FF;
+}
+.filter-button:first-child {
+    margin-right: 30px;
+}
+.error-message {
+    width: 40%;
+    margin: 20px auto 0 auto !important;
+}
